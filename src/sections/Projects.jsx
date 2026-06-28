@@ -28,6 +28,51 @@ const projects = [
     link: "https://npmjs.com/package/@reck98/git-smart",
     github: "https://github.com/reck98/git-smart",
   },
+  {
+    title: "Daily Trade Upstox",
+    description:
+      "An automated paper trading engine implementing a systematic ETF dip-buying strategy using real-time and historical market data from the Upstox API. Features daily trade execution, portfolio tracking, duplicate trade prevention, and P&L / XIRR performance analysis.",
+    image: "/projects/project4.png",
+    tags: ["Python", "Upstox API", "Pandas", "PyXIRR", "REST API", "uv"],
+    link: "",
+    github: "https://github.com/reck98/daily-trade-etfs",
+  },
+  {
+    title: "Kanban Board",
+    description:
+      "A lightweight task management application built with vanilla JavaScript that provides an intuitive drag-and-drop Kanban workflow. Supports task creation, automatic local storage persistence, responsive layouts, and secure handling of user input without any external frameworks.",
+    image: "/projects/project5.png",
+    tags: ["HTML5", "CSS3", "JavaScript", "LocalStorage", "Drag & Drop API"],
+    link: "https://kanban-board-reck98.surge.sh",
+    github: "https://github.com/reck98/kanban-board",
+  },
+  {
+    title: "Screen Saver",
+    description:
+      "A browser-based screen saver featuring four interactive visual themes, including Matrix rain, terminal-inspired digital clock, elapsed time tracker, and animated flip clock. Leverages modern browser APIs, smooth animations, and fullscreen support for an immersive experience.",
+    image: "/projects/project6.png",
+    tags: ["HTML5", "CSS3", "JavaScript", "Canvas API", "Fullscreen API"],
+    link: "https://screen-saver.surge.sh/",
+    github: "https://github.com/reck98/screen-saver",
+  },
+  {
+    title: "AutoRclone",
+    description:
+      "An interactive Linux CLI application that automates Google Drive backups using rclone with native systemd scheduling, multi-profile management, and Telegram notifications. Supports one-way and two-way synchronization, offline message queueing, and zero-touch dependency installation.",
+    image: "/projects/project7.png",
+    tags: ["Bash", "Linux", "Rclone", "systemd", "Google Drive API", "Telegram Bot API", "Shell Scripting"],
+    link: "",
+    github: "https://github.com/reck98/autorclone",
+  },
+  {
+    title: "LSTM Next Word Prediction",
+    description:
+      "A PyTorch-based LSTM language model trained on over 3,000 quotes to predict the next word in a sequence. Includes a complete NLP pipeline covering text preprocessing, tokenization, sequence generation, model training, checkpointing, and inference, achieving 95.57% training accuracy with GPU acceleration.",
+    image: "/projects/project8.png",
+    tags: ["Python", "PyTorch", "Pandas", "NumPy", "NLTK", "Jupyter", "CUDA", "LSTM", "Deep Learning", "NLP"],
+    link: "",
+    github: "https://github.com/reck98/lstm-next-word-prediction",
+  },
 ];
 
 export const Projects = () => {
@@ -77,14 +122,16 @@ export const Projects = () => {
                 />
                 {/* Overlay Links */}
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
-                  >
-                    <ArrowUpRight className="w-5 h-5" />
-                  </a>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                    >
+                      <ArrowUpRight className="w-5 h-5" />
+                    </a>
+                  )}
                   <a
                     href={project.github}
                     target="_blank"
@@ -102,12 +149,14 @@ export const Projects = () => {
                   <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
-                  <ArrowUpRight
-                    className="w-5 h-5 
-                  text-muted-foreground group-hover:text-primary
-                   group-hover:translate-x-1 
-                   group-hover:-translate-y-1 transition-all"
-                  />
+                  {project.link && (
+                    <ArrowUpRight
+                      className="w-5 h-5 
+                    text-muted-foreground group-hover:text-primary
+                     group-hover:translate-x-1 
+                     group-hover:-translate-y-1 transition-all"
+                    />
+                  )}
                 </div>
                 <p className="text-muted-foreground text-sm">
                   {project.description}
