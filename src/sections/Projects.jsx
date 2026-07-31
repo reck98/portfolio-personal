@@ -1,6 +1,25 @@
 import { ArrowUpRight, Github } from "lucide-react";
-import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
+  {
+    title: "SplitMate",
+    description:
+      "A modern expense-sharing platform built for India that enables groups to split bills, track balances, and settle payments seamlessly using dynamic UPI QR codes. It supports multiple split strategies, real-time synchronization, Google authentication, and preserves original debt chains for transparent and accurate settlements.",
+    image: "/projects/splitmate.png",
+    tags: [
+      "Astro",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Tailwind CSS",
+      "Firebase",
+      "UPI",
+      "PWA",
+    ],
+    link: "https://splitmate-wt86.onrender.com/",
+    github: "https://github.com/reck98/SplitMate",
+  },
   {
     title: "GenWeb.ai",
     description:
@@ -11,6 +30,28 @@ const projects = [
     github: "https://github.com/reck98/gen-web-ai",
   },
   {
+    title: "DocuConvert Pro",
+    description:
+      "An enterprise-grade PDF processing platform featuring 34 powerful document tools, AI-powered document intelligence, OCR, native Office conversions, and a visual workflow automation engine. Built with a privacy-first architecture, it enables users to process, convert, secure, and automate PDF workflows entirely within their own deployment.",
+    image: "/projects/docuconvertpro.png",
+    tags: [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "Python",
+      "PyMuPDF",
+      "Docker",
+      "OCR",
+      "AI",
+      "PDF",
+      "PWA",
+      "SEO",
+    ],
+    link: "https://docuconvertpro.onrender.com",
+    github: "https://github.com/reck98/DocuConvertPro",
+  },
+  {
     title: "ResearchMind",
     description:
       "A multi-agent AI research system using LangChain that orchestrates Search, Reader, Writer, and Critic agents to generate structured research reports from web sources.",
@@ -18,6 +59,24 @@ const projects = [
     tags: ["Python", "LangChain", "Groq", "Streamlit", "Tavily"],
     link: "https://research-mind-reck98.streamlit.app",
     github: "https://github.com/reck98/research-mind",
+  },
+  {
+    title: "ISM WiFi",
+    description:
+      "A cross-platform Node.js CLI that automatically logs into the IIT ISM Dhanbad captive Wi-Fi portal whenever internet connectivity is lost. It continuously monitors network status, performs automatic re-authentication with exponential backoff, and provides an interactive configuration wizard with multiple management commands.",
+    image: "/projects/ism-wifi.png",
+    tags: [
+      "Node.js",
+      "JavaScript",
+      "CLI",
+      "Commander.js",
+      "Networking",
+      "Automation",
+      "NPM",
+      "Cross-Platform",
+    ],
+    link: "https://www.npmjs.com/package/ism-wifi",
+    github: "https://github.com/reck98/ism-wifi",
   },
   {
     title: "git-smart",
@@ -38,6 +97,15 @@ const projects = [
     github: "https://github.com/reck98/daily-trade-etfs",
   },
   {
+    title: "AutoRclone",
+    description:
+      "An interactive Linux CLI application that automates Google Drive backups using rclone with native systemd scheduling, multi-profile management, and Telegram notifications. Supports one-way and two-way synchronization, offline message queueing, and zero-touch dependency installation.",
+    image: "/projects/project7.png",
+    tags: ["Bash", "Linux", "Rclone", "systemd", "Google Drive API", "Telegram Bot API", "Shell Scripting"],
+    link: "",
+    github: "https://github.com/reck98/autorclone",
+  },
+  {
     title: "Kanban Board",
     description:
       "A lightweight task management application built with vanilla JavaScript that provides an intuitive drag-and-drop Kanban workflow. Supports task creation, automatic local storage persistence, responsive layouts, and secure handling of user input without any external frameworks.",
@@ -54,15 +122,6 @@ const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "Canvas API", "Fullscreen API"],
     link: "https://screen-saver.surge.sh/",
     github: "https://github.com/reck98/screen-saver",
-  },
-  {
-    title: "AutoRclone",
-    description:
-      "An interactive Linux CLI application that automates Google Drive backups using rclone with native systemd scheduling, multi-profile management, and Telegram notifications. Supports one-way and two-way synchronization, offline message queueing, and zero-touch dependency installation.",
-    image: "/projects/project7.png",
-    tags: ["Bash", "Linux", "Rclone", "systemd", "Google Drive API", "Telegram Bot API", "Shell Scripting"],
-    link: "",
-    github: "https://github.com/reck98/autorclone",
   },
   {
     title: "LSTM Next Word Prediction",
@@ -174,14 +233,6 @@ export const Projects = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* View All CTA */}
-        <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
         </div>
       </div>
     </section>
