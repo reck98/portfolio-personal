@@ -83,7 +83,7 @@ export const Hero = () => {
                 <br />
                 systems with
                 <br />
-                <span className="font-serif italic font-normal text-white">
+                <span className="font-serif italic font-normal text-heading">
                   purpose.
                 </span>
               </h1>

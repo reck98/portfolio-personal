@@ -1,4 +1,5 @@
 import { Button } from "@/components/Button";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -52,20 +53,25 @@ export const Navbar = () => {
           </div>
         </div>
 
-        {/* CTA Button */}
-        <div className="hidden md:block">
+        {/* Desktop CTA & Theme Toggle */}
+        <div className="hidden md:flex items-center gap-3">
+          <ThemeToggle />
           <a href="#contact">
             <Button size="sm">Contact Me</Button>
           </a>
         </div>
 
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden p-2 text-foreground cursor-pointer"
-          onClick={() => setIsMobileMenuOpen((prev) => !prev)}
-        >
-          {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        {/* Mobile Menu & Theme Toggle Controls */}
+        <div className="flex items-center gap-2 md:hidden">
+          <ThemeToggle />
+          <button
+            className="p-2 text-foreground cursor-pointer"
+            onClick={() => setIsMobileMenuOpen((prev) => !prev)}
+            aria-label="Toggle Navigation Menu"
+          >
+            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile Menu */}
@@ -83,9 +89,11 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button>Contact Me</Button>
-            </a>
+            <div className="flex items-center justify-between pt-2">
+              <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
+                <Button>Contact Me</Button>
+              </a>
+            </div>
           </div>
         </div>
       )}

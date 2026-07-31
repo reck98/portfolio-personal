@@ -68,7 +68,7 @@ export const Achievements = () => {
             Milestones &{" "}
             <span
               className="font-serif italic
-            font-normal text-white"
+            font-normal text-heading"
             >
               achievements.
             </span>
