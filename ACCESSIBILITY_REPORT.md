@@ -11,7 +11,7 @@
 ### Skip to Main Content Link
 A keyboard-accessible skip link is placed at the top of the body:
 ```html
-<a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] ...">
+<a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] ...">
   Skip to main content
 </a>
 ```
