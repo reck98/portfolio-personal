@@ -1,0 +1,44 @@
+# Production robots.txt for Aashish Kumar Portfolio (https://aashishkumar.dev)
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /scratch/
+Disallow: /*.json$
+
+# Search Engines & Web Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# AI Search & LLM Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap Location
+Sitemap: https://aashishkumar.dev/sitemap.xml

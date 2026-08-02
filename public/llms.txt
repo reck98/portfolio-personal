@@ -1,0 +1,40 @@
+# Aashish Kumar - Senior Full-Stack & AI Engineer
+
+> Portfolio and professional summary for Aashish Kumar, full-stack software engineer and AI developer from IIT (ISM) Dhanbad.
+
+## Core Information
+- Name: Aashish Kumar
+- GitHub Handle: reck98
+- Role: Full-Stack Engineer, AI Systems Developer, Competitive Programmer
+- Education: B.Tech in Electronics & Communication Engineering at IIT (ISM) Dhanbad (CGPA: 9.31/10.00, 2024-2028)
+- Specialization: React, Node.js, TypeScript, Python, LangChain, Multi-Agent AI Architecture, Systems & CLI Tools, Data Structures & Algorithms.
+- Email: aashish7648@gmail.com
+- Phone: +91 98359-29984
+- Location: Dhanbad, Jharkhand, India
+
+## Competitive Programming & Achievements
+- Codeforces Expert (Max Rating: 1677, Peak Global Rank: 858 in Round 1099 Div. 2)
+- LeetCode Knight (Peak Rating: 1852)
+- CodeChef 3-Star (Max Rating: 1757, Global Rank: 58 in Starters 238)
+- 700+ Algorithmic Problems Solved across platforms.
+
+## Key Projects
+1. **SplitMate**: Modern expense-sharing PWA built with Astro, TypeScript, Node.js, Express, PostgreSQL, Drizzle ORM, UPI QR payments, and Firebase.
+2. **DocuConvert Pro**: Enterprise-grade privacy-first PDF platform featuring 34 document tools, OCR, and AI document intelligence built with React, Vite, Node.js, Python, PyMuPDF, and Docker.
+3. **GenWeb.ai**: AI-powered SaaS platform transforming natural-language prompts into multi-page React/Tailwind websites using OpenRouter and Stripe.
+4. **ResearchMind**: Multi-agent AI research system using LangChain, Python, Groq, Streamlit, and Tavily to generate structured reports.
+5. **ISM WiFi**: Cross-platform Node.js CLI published on npm (ism-wifi) automating IIT (ISM) Dhanbad captive Wi-Fi authentication.
+6. **git-smart**: AI-powered Git CLI published on npm (@reck98/git-smart) automating commits using OpenRouter, OpenAI, Anthropic, and Gemini.
+7. **Daily Trade Upstox**: Automated paper trading engine executing systematic ETF dip-buying using Python, Upstox API, Pandas, and PyXIRR.
+8. **AutoRclone**: Linux CLI for automated Google Drive backups with systemd scheduling and Telegram alerts.
+
+## Profiles & Links
+- Website: https://aashishkumar.dev
+- GitHub: https://github.com/reck98
+- LinkedIn: https://linkedin.com/in/aashish1r
+- X (Twitter): https://x.com/reck98_
+- Codeforces: https://codeforces.com/profile/reck98
+- LeetCode: https://leetcode.com/u/reck98
+- CodeChef: https://www.codechef.com/users/reck_98
+- Medium: https://medium.com/@aashish7648
+- Reddit: https://www.reddit.com/user/aashish_1r

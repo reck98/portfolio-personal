@@ -1,0 +1,46 @@
+# Complete Comprehensive Profile - Aashish Kumar
+
+## Summary
+Aashish Kumar is a Senior Full-Stack Engineer, AI Systems Developer, and Competitive Programmer from IIT (ISM) Dhanbad. He builds high-performance web applications, multi-agent AI systems, developer utilities, and algorithmic automation tools.
+
+## Technical Skills
+- Frontend: React 19, Astro, Next.js, TypeScript, JavaScript (ES2026+), Tailwind CSS v4, HTML5, CSS3, PWA.
+- Backend & Databases: Node.js, Express, Python, PostgreSQL, Drizzle ORM, MongoDB, REST APIs, WebSockets, Docker, Linux, Systemd, Bash.
+- AI & Machine Learning: LangChain, Multi-Agent Orchestration, OpenRouter, PyTorch, PyMuPDF, OCR, NLTK, Prompt Engineering, LLM Integration.
+- Developer Tools & Utilities: Git, CLI development (Commander.js, npm package publishing), Upstox API, Financial Analytics (PyXIRR), Stripe Payment Gateway.
+- Algorithmic Problem Solving: Data Structures & Algorithms, Dynamic Programming, Graph Theory, C++, Competitive Programming.
+
+## Education
+- B.Tech in Electronics & Communication Engineering (2024 - 2028)
+  Institution: Indian Institute of Technology (ISM) Dhanbad
+  Academic Performance: CGPA 9.31 / 10.00
+  Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming using Java, Computer Systems, Algorithm Analysis.
+
+## Detailed Projects Overview
+- **SplitMate**: https://splitmate-wt86.onrender.com/ | GitHub: https://github.com/reck98/SplitMate
+  Expense-sharing web application for India supporting dynamic UPI QR codes, debt simplification algorithms, Google OAuth, and real-time syncing.
+- **DocuConvert Pro**: https://docuconvertpro.onrender.com | GitHub: https://github.com/reck98/DocuConvertPro
+  Privacy-first PDF processing platform with 34 visual document tools, AI intelligence, OCR engine, and containerized deployment.
+- **GenWeb.ai**: https://gen-web-ai-1-6qrz.onrender.com | GitHub: https://github.com/reck98/gen-web-ai
+  Full-stack AI SaaS generating production-ready websites from user prompts, integrated with Stripe subscription billing.
+- **ResearchMind**: https://research-mind-reck98.streamlit.app | GitHub: https://github.com/reck98/research-mind
+  Autonomous multi-agent research workflow (Search, Reader, Writer, Critic) built using LangChain, Groq, and Streamlit.
+- **ISM WiFi**: https://www.npmjs.com/package/ism-wifi | GitHub: https://github.com/reck98/ism-wifi
+  Cross-platform Node.js CLI with automatic reconnection, exponential backoff, credential management, and daemon service.
+- **git-smart**: https://npmjs.com/package/@reck98/git-smart | GitHub: https://github.com/reck98/git-smart
+  AI-powered Git CLI generating intelligent commit messages and diff summaries via LLM APIs.
+- **Daily Trade Upstox**: GitHub: https://github.com/reck98/daily-trade-etfs
+  Systematic algorithmic paper trading engine running ETF dip-buying strategies with XIRR performance metrics.
+- **AutoRclone**: GitHub: https://github.com/reck98/autorclone
+  Automated Linux backup CLI with systemd daemon integration and Telegram bot status reporting.
+- **Kanban Board**: https://kanban-board-reck98.surge.sh | GitHub: https://github.com/reck98/kanban-board
+  Vanilla JavaScript drag-and-drop task board with LocalStorage persistence.
+- **Screen Saver**: https://screen-saver.surge.sh/ | GitHub: https://github.com/reck98/screen-saver
+  Interactive browser canvas screensaver featuring Matrix rain, digital clocks, and fullscreen animation.
+- **LSTM Next Word Prediction**: GitHub: https://github.com/reck98/lstm-next-word-prediction
+  Deep learning PyTorch model trained on 3,000+ quote sequences achieving 95.57% accuracy.
+
+## Contact Information
+- Email: aashish7648@gmail.com
+- Phone: +91 98359-29984
+- Location: Dhanbad, Jharkhand, India
