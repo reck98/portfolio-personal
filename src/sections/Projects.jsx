@@ -2,6 +2,27 @@ import { ArrowUpRight, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Paperflow",
+    description:
+      "A high-performance Markdown authoring platform that renders publication-quality vector PDFs with native vector LaTeX math typesetting, live dual-pane preview, customizable typography presets, and client-side persistence.",
+    baseImageName: "paperflow",
+    fallbackImage: "/projects/paperflow.png",
+    tags: [
+      "React",
+      "TypeScript",
+      "Typst",
+      "Pandoc",
+      "CodeMirror 6",
+      "Tailwind CSS",
+      "KaTeX",
+      "Node.js",
+      "Express",
+      "Docker",
+    ],
+    link: "https://paperflow.reck98.in/",
+    github: "https://github.com/reck98/PaperFlow",
+  },
+  {
     title: "SplitMate",
     description:
       "A modern expense-sharing platform built for India that enables groups to split bills, track balances, and settle payments seamlessly using dynamic UPI QR codes. It supports multiple split strategies, real-time synchronization, Google authentication, and preserves original debt chains for transparent settlements.",
